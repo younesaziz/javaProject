@@ -1,0 +1,288 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.paint.Color?>
+<?import javafx.scene.paint.LinearGradient?>
+<?import javafx.scene.paint.Stop?>
+<?import javafx.scene.shape.Circle?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="631.0" prefWidth="1083.0" style="-fx-background-color: #191970;" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="superMarkete.HomeController">
+   <children>
+      <Pane layoutX="291.0" prefHeight="592.0" prefWidth="792.0" style="-fx-background-color: TRANSPARENT;">
+         <children>
+            <Pane layoutX="-120.0" layoutY="-138.0" prefHeight="256.0" prefWidth="472.0" rotate="42.3" style="-fx-background-color: FA2C56; -fx-background-radius: 70;" />
+            <Button layoutX="58.0" layoutY="122.0" mnemonicParsing="false" opacity="0.11" prefHeight="192.0" prefWidth="201.0" style="-fx-background-radius: 15;" />
+            <Button layoutX="295.0" layoutY="126.0" mnemonicParsing="false" opacity="0.11" prefHeight="192.0" prefWidth="201.0" style="-fx-background-radius: 15;" />
+            <Button layoutX="538.0" layoutY="126.0" mnemonicParsing="false" opacity="0.11" prefHeight="192.0" prefWidth="201.0" style="-fx-background-radius: 15;" />
+            <Button layoutX="58.0" layoutY="369.0" mnemonicParsing="false" opacity="0.11" prefHeight="192.0" prefWidth="201.0" style="-fx-background-radius: 15;" />
+            <Button layoutX="296.0" layoutY="369.0" mnemonicParsing="false" opacity="0.11" prefHeight="192.0" prefWidth="201.0" style="-fx-background-radius: 15;" />
+            <Button layoutX="538.0" layoutY="369.0" mnemonicParsing="false" opacity="0.11" prefHeight="192.0" prefWidth="201.0" style="-fx-background-radius: 15;" />
+            <Circle layoutX="159.0" layoutY="190.0" radius="54.0" stroke="BLACK" strokeType="INSIDE">
+               <fill>
+                  <LinearGradient endX="1.0" endY="1.0">
+                     <stops>
+                        <Stop>
+                           <color>
+                              <Color />
+                           </color>
+                        </Stop>
+                        <Stop offset="1.0">
+                           <color>
+                              <Color red="0.27843138575553894" green="0.9333333373069763" blue="1.0" />
+                           </color>
+                        </Stop>
+                     </stops>
+                  </LinearGradient>
+               </fill>
+            </Circle>
+            <Label layoutX="124.0" layoutY="269.0" text="Delivery" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font>
+            </Label>
+            <ImageView fitHeight="108.0" fitWidth="100.0" layoutX="116.0" layoutY="136.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@Image/livraison-rapide.png" />
+               </image>
+            </ImageView>
+            <Label layoutX="366.0" layoutY="269.0" text="Discount" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font>
+            </Label>
+            <Circle layoutX="639.0" layoutY="435.0" radius="54.0" stroke="BLACK" strokeType="INSIDE">
+               <fill>
+                  <LinearGradient endX="1.0" endY="1.0">
+                     <stops>
+                        <Stop>
+                           <color>
+                              <Color />
+                           </color>
+                        </Stop>
+                        <Stop offset="1.0">
+                           <color>
+                              <Color red="0.4912280738353729" green="0.42105263471603394" blue="0.9473684430122375" />
+                           </color>
+                        </Stop>
+                     </stops>
+                  </LinearGradient>
+               </fill>
+            </Circle>
+            <Circle layoutX="403.0" layoutY="435.0" radius="54.0" stroke="BLACK" strokeType="INSIDE">
+               <fill>
+                  <LinearGradient endX="1.0" endY="1.0">
+                     <stops>
+                        <Stop>
+                           <color>
+                              <Color />
+                           </color>
+                        </Stop>
+                        <Stop offset="0.9518900343642612">
+                           <color>
+                              <Color red="0.9473684430122375" green="0.28947368264198303" blue="0.28947368264198303" />
+                           </color>
+                        </Stop>
+                        <Stop offset="1.0">
+                           <color>
+                              <Color red="1.0" green="0.15740740299224854" blue="0.15740740299224854" />
+                           </color>
+                        </Stop>
+                     </stops>
+                  </LinearGradient>
+               </fill>
+            </Circle>
+            <Circle layoutX="159.0" layoutY="435.0" radius="54.0" stroke="BLACK" strokeType="INSIDE">
+               <fill>
+                  <LinearGradient endX="1.0" endY="1.0">
+                     <stops>
+                        <Stop>
+                           <color>
+                              <Color />
+                           </color>
+                        </Stop>
+                        <Stop offset="1.0">
+                           <color>
+                              <Color red="0.9504629373550415" green="1.0" blue="0.009259259328246117" />
+                           </color>
+                        </Stop>
+                     </stops>
+                  </LinearGradient>
+               </fill>
+            </Circle>
+            <Circle layoutX="639.0" layoutY="190.0" radius="54.0" stroke="BLACK" strokeType="INSIDE">
+               <fill>
+                  <LinearGradient endX="1.0" endY="1.0">
+                     <stops>
+                        <Stop>
+                           <color>
+                              <Color />
+                           </color>
+                        </Stop>
+                        <Stop offset="1.0">
+                           <color>
+                              <Color red="1.0" green="0.5972222089767456" blue="0.5972222089767456" />
+                           </color>
+                        </Stop>
+                     </stops>
+                  </LinearGradient>
+               </fill>
+            </Circle>
+            <Circle layoutX="397.0" layoutY="190.0" radius="54.0" stroke="BLACK" strokeType="INSIDE">
+               <fill>
+                  <LinearGradient endX="1.0" endY="1.0">
+                     <stops>
+                        <Stop>
+                           <color>
+                              <Color />
+                           </color>
+                        </Stop>
+                        <Stop offset="1.0">
+                           <color>
+                              <Color red="1.0" green="1.0" blue="1.0" />
+                           </color>
+                        </Stop>
+                     </stops>
+                  </LinearGradient>
+               </fill>
+            </Circle>
+            <ImageView fitHeight="80.0" fitWidth="75.0" layoutX="359.0" layoutY="146.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@Image/offer.png" />
+               </image>
+            </ImageView>
+            <Label layoutX="598.0" layoutY="269.0" text="Shopping" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font>
+            </Label>
+            <ImageView fitHeight="75.0" fitWidth="75.0" layoutX="601.0" layoutY="153.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@Image/shopping-cart%20(1).png" />
+               </image>
+            </ImageView>
+            <Label layoutX="145.0" layoutY="514.0" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font>
+            </Label>
+            <Label layoutX="105.0" layoutY="501.0" text="Entertainment" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font>
+            </Label>
+            <ImageView fitHeight="84.0" fitWidth="100.0" layoutX="117.0" layoutY="393.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@Image/fireworks.png" />
+               </image>
+            </ImageView>
+            <Label layoutX="389.0" layoutY="506.0" text="Gift" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font>
+            </Label>
+            <ImageView fitHeight="84.0" fitWidth="121.0" layoutX="363.0" layoutY="387.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@Image/gift.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="84.0" fitWidth="84.0" layoutX="597.0" layoutY="387.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@Image/new.png" />
+               </image>
+            </ImageView>
+            <Label layoutX="620.0" layoutY="506.0" text="New" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font>
+            </Label>
+         </children>
+      </Pane>
+      <Pane layoutY="-83.0" prefHeight="631.0" prefWidth="275.0">
+         <children>
+            <Pane layoutY="48.0" prefHeight="60.0" prefWidth="284.0" style="-fx-background-color: FA2C56; -fx-background-radius: 10;">
+               <children>
+                  <Label layoutX="57.0" layoutY="7.0" text="Home Space" textFill="WHITE">
+                     <font>
+                        <Font name="System Bold" size="29.0" />
+                     </font>
+                  </Label>
+               </children>
+            </Pane>
+            <VBox layoutY="108.0" prefHeight="276.0" prefWidth="275.0" style="-fx-background-color: 393351;">
+               <children>
+                  <Button fx:id="btnP" graphicTextGap="35.0" mnemonicParsing="false" onAction="#ProductPage" prefHeight="75.0" prefWidth="275.0" style="-fx-background-color: bleu;" text="modify a product" textFill="WHITE">
+                     <font>
+                        <Font size="21.0" />
+                     </font>
+                     <graphic>
+                        <ImageView fitHeight="46.0" fitWidth="63.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@Image/products.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                  </Button>
+                  <Button fx:id="btnS" graphicTextGap="35.0" mnemonicParsing="false" onAction="#ServicePage" prefHeight="79.0" prefWidth="275.0" style="-fx-background-color: bleu;" text=" Services" textFill="WHITE">
+                     <graphic>
+                        <ImageView fitHeight="52.0" fitWidth="49.0" nodeOrientation="INHERIT" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@Image/customer-service.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                     <font>
+                        <Font size="21.0" />
+                     </font>
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                     <padding>
+                        <Insets left="-90.0" />
+                     </padding>
+                  </Button>
+                  <Button fx:id="btnPage" graphicTextGap="35.0" mnemonicParsing="false" onAction="#empPage" prefHeight="79.0" prefWidth="275.0" style="-fx-background-color: bleu;" text="Employes" textFill="WHITE">
+                     <font>
+                        <Font size="21.0" />
+                     </font>
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                     <graphic>
+                        <ImageView fitHeight="52.0" fitWidth="49.0" nodeOrientation="INHERIT" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@Image/employe.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                     <padding>
+                        <Insets left="-75.0" />
+                     </padding>
+                  </Button>
+                  <Button fx:id="btnHome" mnemonicParsing="false" onAction="#homePage" prefHeight="49.0" prefWidth="60.0" style="-fx-background-color: transparent;" />
+               </children>
+            </VBox>
+         </children>
+      </Pane>
+      <Button fx:id="btnHome1" layoutX="16.0" layoutY="564.0" mnemonicParsing="false" onAction="#homePage" prefHeight="49.0" prefWidth="60.0" style="-fx-background-color: transparent;">
+         <graphic>
+            <ImageView fitHeight="40.0" fitWidth="66.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@Image/shutdown.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+   </children>
+</AnchorPane>

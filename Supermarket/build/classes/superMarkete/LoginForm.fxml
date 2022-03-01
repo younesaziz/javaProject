@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="468.0" prefWidth="646.0" style="-fx-background-color: white;" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="superMarkete.LoginFormController">
+   <children>
+      <Pane prefHeight="491.0" prefWidth="301.0" style="-fx-background-color: white;">
+         <children>
+            <ImageView fitHeight="257.0" fitWidth="301.0" layoutX="1.0" layoutY="59.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@Image/Login.jpg" />
+               </image>
+            </ImageView>
+            <Label layoutX="70.0" layoutY="211.0" text="Aziz Company" textFill="#000000d5">
+               <font>
+                  <Font name="System Bold" size="24.0" />
+               </font>
+            </Label>
+            <Label layoutX="117.0" layoutY="257.0" text="eazy-creative" textFill="#000000e6" />
+         </children>
+      </Pane>
+      <Label layoutX="266.0" layoutY="460.0" prefHeight="17.0" prefWidth="141.0" text="Powerd By Aziz Younes">
+         <font>
+            <Font name="System Bold Italic" size="12.0" />
+         </font>
+      </Label>
+      <TextField fx:id="tfUsername" layoutX="355.0" layoutY="140.0" prefHeight="53.0" prefWidth="244.0" promptText="Enter Username" />
+      <Label fx:id="lbMsg" alignment="CENTER" layoutX="355.0" layoutY="301.0" prefHeight="17.0" prefWidth="266.0" />
+      <Button fx:id="btnSignin" layoutX="398.0" layoutY="342.0" mnemonicParsing="false" onAction="#signIn" prefHeight="35.0" prefWidth="180.0" style="-fx-background-color: dd4b79;" text="Sign In" textFill="WHITE" />
+      <PasswordField fx:id="tfPassword" layoutX="355.0" layoutY="208.0" prefHeight="53.0" prefWidth="244.0" promptText="Enter Password" />
+      <Button fx:id="btnSigninEmp" layoutX="398.0" layoutY="391.0" mnemonicParsing="false" onAction="#signInEmp" prefHeight="35.0" prefWidth="180.0" style="-fx-background-color: #0a6810;" text="Sign In As Employee" textFill="WHITE" />
+      <Label layoutX="221.0" layoutY="30.0" prefHeight="17.0" prefWidth="219.0" text="Admin Login Form" textFill="#000000ce">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
